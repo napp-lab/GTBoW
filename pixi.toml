@@ -1,0 +1,24 @@
+[workspace]
+authors = ["Aaron Wilhelm <ajw344@cornell.edu>"]
+channels = ["conda-forge"]
+name = "GTBoW"
+platforms = ["linux-64"]
+version = "1.0.0"
+
+[tasks]
+install = "pip install -e . --no-build-isolation"
+test = "pytest tests/"
+[dependencies]
+python = ">=3.14.3,<3.15"
+pytest = ">=9.0.2,<10"
+numpy = ">=2.4.2,<3"
+opencv = ">=4.13.0,<5"
+cmake = ">=4.2.3,<5"
+ninja = ">=1.13.2,<2"
+c-compiler = ">=1.11.0,<2"
+cxx-compiler = ">=1.11.0,<2"
+lz4-c = ">=1.10.0,<2"
+setuptools = ">=82.0.0,<83"
+pip = ">=26.0.1,<27"
+flann = ">=1.9.2,<2"
+matplotlib = ">=3.10.8,<4"

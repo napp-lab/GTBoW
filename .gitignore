@@ -1,0 +1,48 @@
+# Build artifacts
+build/
+dist/
+*.so
+*.egg-info/
+pyGTBoW.egg-info/
+__pycache__/
+*.py[cod]
+
+# CMake / Make
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.log
+
+# C++ build files
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Pixi / Environments
+.pixi/
+*env*/
+
+# Test outputs and caches
+.pytest_cache/
+tests/tests_output/
+.coverage
+htmlcov/
+
+# Local files
+install_local/
+*.voc
+*.gz
+*.bin
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+.env
+.local
+.cache/

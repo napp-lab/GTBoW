@@ -1,0 +1,8 @@
+include CMakeLists.txt README.md LICENSE THIRD_PARTY_NOTICES.md pixi.toml pixi.lock
+recursive-include cmake *.cmake
+recursive-include src *.h *.cpp
+recursive-include thirdparty *.h *.hpp *.cpp *.cmake *.in *.py CMakeLists.txt LICENSE LICENSE.txt *_LICENSE.txt
+include thirdparty/pybind11/.github/CONTRIBUTING.md
+recursive-include data *.png *.md
+recursive-include examples *.py
+recursive-include tests *.py
